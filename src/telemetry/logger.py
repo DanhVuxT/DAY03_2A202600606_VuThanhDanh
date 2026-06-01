@@ -37,7 +37,7 @@ class IndustryLogger:
 
     def info(self, msg: str):
         self.logger.info(msg)
-
+    
     def error(self, msg: str, exc_info=True):
         self.logger.error(msg, exc_info=exc_info)
 
